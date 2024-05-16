@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bag Emporium</title>
+    <link rel="stylesheet" href="../css/ContactUs.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bag Emporium</h1>
+        <nav>
+            <ul>
+              <div class="navigation">
+                <div class="nav-center container d-flex">
+                <a href="/" class="logo"><h1>BAG BOUTIQUE</h1></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you! Please feel free to reach out to us using the contact information below:</p>
+            <div class="contact-info">
+                <p><strong>Address:</strong> 123 Bag Street, Cityville, Country</p>
+                <p><strong>Phone:</strong> +1 (001) 65464-34225</p>
+                <p><strong>Email:</strong> info@bagboutiqueph.com</p>
+            </div>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bag Emporium. All rights reserved.</p>
+    </footer>
+</body>
+</html>
